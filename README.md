@@ -1,4 +1,5 @@
-<img title="42_libft" alt="42_libft" src="./utils/logo_libft.png" width="100%">
+<img title="42_libft" alt="42_libft" src="./utils/libft_banner.png" width="100%">
+<img title="42_libft" alt="42_libft" src="./utils/libft_logo.png" width="100%">
 
 # Fonctions abordees
 
