@@ -100,7 +100,6 @@ Norminette non-officielle pour VSCode.
 - - -
 
 ## License
-
-[License](./LICENSE)
+This work is published under the terms of **[42 Unlicense](./LICENSE)**.
 
 ### DON'T COPY. LEARN.
