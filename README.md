@@ -99,4 +99,8 @@ Norminette non-officielle pour VSCode.
 
 - - -
 
+## License
+
+[License](./LICENSE)
+
 ### DON'T COPY. LEARN.
