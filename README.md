@@ -1,6 +1,8 @@
 <img title="42_libft" alt="42_libft" src="./utils/libft_banner.png" width="100%">
 <img title="42_libft" alt="42_libft" src="./utils/libft_logo.png" width="100%">
 
+[English version](#english-version)
+
 # Fonctions abordees
 
 ## Index
@@ -98,6 +100,107 @@ Header de l'école 42.<br>
 Norminette non-officielle pour VSCode.
 
 - - -
+
+# ENGLISH VERSION
+
+# Covered Functions
+
+## Index
+
+* [Basic Functions](#basic-functions-character-and-memory-manipulation-)
+* [Memory Management Functions](#memory-management-functions-allocation-and-release-)
+* [String Manipulation Functions](#string-manipulation-functions-)
+* [Linked List Functions (Bonus Part)](#linked-list-functions-bonus-part-)
+* [Test Results](#test-results)
+* [Moulinette](#moulinette)
+* [Useful Links](#useful-links)
+
+
+## Basic Functions (Character and Memory Manipulation):
+
+- [x] **isalpha** : `int ft_isalpha(int c);` Checks if the character passed as an argument is an alphabetic letter. <br>
+- [x] **isdigit** : `int ft_isdigit(int c);` Checks if the character passed as an argument is a decimal digit. <br>
+- [x] **isalnum** : `int ft_isalnum(int c);` Checks if the character passed as an argument is an alphanumeric character. <br>
+- [x] **isascii** : `int ft_isascii(int c);` Checks if the character passed as an argument is an ASCII character. <br>
+- [x] **isprint** : `int ft_isprint(int c);` Checks if the character passed as an argument is a printable character. <br>
+- [x] **strlen** : `size_t ft_strlen(const char *s);` Calculates the length of a string. <br>
+- [x] **memset** : `void *ft_memset(void *b, int c, size_t len);` Fills a memory area with a given value. <br>
+- [x] **bzero** : `void ft_bzero(void *s, size_t n);` Fills the first bytes of the memory pointed to by `s` with the null byte (value 0). <br>
+- [x] **memcpy** : `void *ft_memcpy(void *dst, const void *src, size_t n);` Copies a source memory area into a destination memory area. <br>
+- [x] **memmove** : `void *ft_memmove(void *dst, const void *src, size_t len);` Copies a source memory area into a destination memory area, even if they overlap.<br>
+- [x] **strlcpy** : `size_t ft_strlcpy(char *dst, const char *src, size_t dstsize);` Copies a string into another limiting the destination size.<br>
+- [x] **strlcat** : `size_t ft_strlcat(char *dest, const char *src, size_t dstsize);` Concatenates two strings limiting the result's size.<br>
+- [x] **toupper** : `int ft_toupper(int c);` Converts a lowercase character to uppercase if it's a lowercase letter.<br>
+- [x] **tolower** : `int ft_tolower(int c);` Converts an uppercase character to lowercase if it's an uppercase letter.<br>
+- [x] **strchr** : `char *ft_strchr(const char *s, int c);` Searches for the first occurrence of a character in a string.<br>
+- [x] **strrchr** : `char *ft_strrchr(const char *s, int c);` Searches for the last occurrence of a character in a string.<br>
+- [x] **strncmp** : `int ft_strncmp(const char *s1, const char *s2, size_t n);` Compares the first n characters of two strings.<br>
+- [x] **memchr** : `void *ft_memchr(const void *s, int c, size_t n);` Searches for a value in a memory area.<br>
+- [x] **memcmp** : `int ft_memcmp(const void *s1, const void *s2, size_t n);` Compares the first n bytes of two memory areas.<br>
+- [x] **strnstr** : `char *ft_strnstr(const char *haystack, const char *needle, size_t len);` Searches for a substring in a string with a length limit.<br>
+- [x] **atoi** : `int ft_atoi(const char *str);` Converts a string to an integer.<br>
+
+## Memory Management Functions (Allocation and Release):
+
+- [x] **calloc** : `void *ft_calloc(size_t count, size_t size);` Allocates and initializes a memory block to zero.<br>
+- [x] **strdup** : `char *ft_strdup(const char *s1);` Duplicates a string.<br>
+
+## String Manipulation Functions:
+
+- [x] **substr** : `char *ft_substr(char const *s, unsigned int start, size_t len);` Extracts a substring from a string.<br>
+- [x] **strjoin** : `char *ft_strjoin(char const *s1, char const *s2);` Concatenates two strings.<br>
+- [x] **strtrim** : `char *ft_strtrim(char const *s1, char const *set);` Removes specified characters from the start and end of a string.<br>
+- [x] **split** : `char **ft_split(char const *s, char c);` Splits a string into words using a delimiter character.<br>
+- [x] **itoa** : `char *ft_itoa(int n);` Converts an integer to a string.<br>
+- [x] **strmapi** : `char *ft_strmapi(char const *s, char (*f)(unsigned int, char));` Applies a function to each character of a string with its index as argument.<br>
+- [x] **striteri** : `void ft_striteri(char *s, void (*f)(unsigned int, char *));` Applies a function to each character of a string with its index as argument.
+
+## Linked List Functions (Bonus Part):
+
+- [x] **lstnew** : `t_list *ft_lstnew(void *content);` Creates a new list element with the data passed as argument.<br>
+- [x] **lstadd_front** : `void ft_lstadd_front(t_list **lst, t_list *new);` Adds a new element at the beginning of the list.<br>
+- [x] **lstsize** : `int ft_lstsize(t_list *lst);` Calculates the size of the list by counting the number of elements.<br>
+- [x] **lstlast** : `t_list *ft_lstlast(t_list *lst);` Returns a pointer to the last element of the list.<br>
+- [x] **lstadd_back** : `void ft_lstadd_back(t_list **lst, t_list *new);` Adds an element at the end of the linked list.<br>
+- [x] **lstdelone** : `void ft_lstdelone(t_list *lst, void (*del)(void *));` Deletes an element from the list without deleting the data structure it contained.<br>
+- [x] **lstclear** : `void ft_lstclear(t_list **lst, void (*del)(void *));` Deletes and frees the memory of all the list's elements using a deletion function.<br>
+- [x] **lstiter** : `void ft_lstiter(t_list *lst, void (*f)(void *));` Applies the function 'f' to the 'content' of each 'lst'.<br>
+- [x] **lstmap** : `t_list *ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));` Applies the function 'f' to each element of the list, creates a new list with the results, and returns a pointer to the new list. In case of memory allocation failure, frees the new list and its content using 'del' and returns NULL.
+
+# Test Results
+
+<img title="war-machine" alt="war-machine" src="./utils/war-machine.png" width="100%">
+<img title="libfttester" alt="libfttester" src="./utils/libfttester.png" width="100%">
+<img title="unit-test" alt="unit-test" src="./utils/unit-test.png" width="100%">
+<img title="fsoares" alt="fsoares" src="./utils/fsoares.png" width="100%">
+
+
+# Moulinette
+
+|          Grade          |            Tests            |
+|:-----------------------:|:---------------------------:|
+| ![](./utils/score.png) | ![](./utils/list_tests.png) |
+
+# Useful Links
+
+## Github Links
+
+[Norminette 42](https://github.com/42School/norminette)
+Norminette 42 for Terminal.<br>
+[Francinette](https://github.com/xicodomingues/francinette)
+Different test programs for 42 Curriculum modules.
+
+## VSCode Extensions
+
+[42_ft_line_counter](https://marketplace.visualstudio.com/items?itemName=DoKca.42-ft-count-line)
+Line counter per function (useful for Norminette).<br>
+[42_header](https://marketplace.visualstudio.com/items?itemName=kube.42header)
+42 School header.<br>
+[Norminette 42](https://marketplace.visualstudio.com/items?itemName=dalexhd.42-norminette)
+Unofficial Norminette for VSCode.
+
+- - -
+
 
 ## License
 This work is published under the terms of **[42 Unlicense](./LICENSE)**.
