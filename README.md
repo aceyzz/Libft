@@ -1,7 +1,13 @@
-<img title="42_libft" alt="42_libft" src="./utils/libft_banner.png" width="100%">
-<img title="42_libft" alt="42_libft" src="./utils/libft_logo.png" width="100%">
+<img title="42_libft" alt="42_libft" src="./git_utils/banner.png" width="100%">
 
-[English version](#english-version)
+<br>
+
+---  
+
+<br>
+
+<details>
+<summary>FRENCH VERSION</summary>
 
 # Fonctions abordees
 
@@ -69,17 +75,17 @@
 
 # Resultats des tests
 
-<img title="war-machine" alt="war-machine" src="./utils/war-machine.png" width="100%">
-<img title="libfttester" alt="libfttester" src="./utils/libfttester.png" width="100%">
-<img title="uni-test" alt="unit-test" src="./utils/unit-test.png" width="100%">
-<img title="fsoares" alt="fosares" src="./utils/fsoares.png" width="100%">
+<img title="war-machine" alt="war-machine" src="./git_utils/war-machine.png" width="100%">
+<img title="libfttester" alt="libfttester" src="./git_utils/libfttester.png" width="100%">
+<img title="uni-test" alt="unit-test" src="./git_utils/unit-test.png" width="100%">
+<img title="fsoares" alt="fosares" src="./git_utils/fsoares.png" width="100%">
 
 
 # Moulinette
 
 |          Note          |            Tests            |
 |:----------------------:|:---------------------------:|
-| ![](./utils/score.png) | ![](./utils/list_tests.png) |
+| ![](./git_utils/score.png) | ![](./git_utils/list_tests.png) |
 
 # Liens utiles
 
@@ -99,9 +105,16 @@ Header de l'école 42.<br>
 [Norminette 42](https://marketplace.visualstudio.com/items?itemName=dalexhd.42-norminette)
 Norminette non-officielle pour VSCode.
 
-- - -
+</details>
 
-# ENGLISH VERSION
+<br>
+
+---
+
+<br>
+
+<details>
+<summary>ENGLISH VERSION</summary>
 
 # Covered Functions
 
@@ -169,17 +182,17 @@ Norminette non-officielle pour VSCode.
 
 # Test Results
 
-<img title="war-machine" alt="war-machine" src="./utils/war-machine.png" width="100%">
-<img title="libfttester" alt="libfttester" src="./utils/libfttester.png" width="100%">
-<img title="unit-test" alt="unit-test" src="./utils/unit-test.png" width="100%">
-<img title="fsoares" alt="fsoares" src="./utils/fsoares.png" width="100%">
+<img title="war-machine" alt="war-machine" src="./git_utils/war-machine.png" width="100%">
+<img title="libfttester" alt="libfttester" src="./git_utils/libfttester.png" width="100%">
+<img title="unit-test" alt="unit-test" src="./git_utils/unit-test.png" width="100%">
+<img title="fsoares" alt="fsoares" src="./git_utils/fsoares.png" width="100%">
 
 
 # Moulinette
 
 |          Grade          |            Tests            |
 |:-----------------------:|:---------------------------:|
-| ![](./utils/score.png) | ![](./utils/list_tests.png) |
+| ![](./git_utils/score.png) | ![](./git_utils/list_tests.png) |
 
 # Useful Links
 
@@ -199,10 +212,11 @@ Line counter per function (useful for Norminette).<br>
 [Norminette 42](https://marketplace.visualstudio.com/items?itemName=dalexhd.42-norminette)
 Unofficial Norminette for VSCode.
 
-- - -
-
+---
 
 ## License
 This work is published under the terms of **[42 Unlicense](./LICENSE)**.
 
 ### DON'T COPY. LEARN.
+
+</details>
